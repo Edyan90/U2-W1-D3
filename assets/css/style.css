@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*,*::before,*::after{box-sizing: border-box;}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color:#B38269;
+    line-height: 1.6em;
+}
+.d-flex{
+    display: flex;
+}
+.d-flex2{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    width: 100%;
+    margin: 3em;
+}
+aside{
+    
+    display: flex;
+    flex-direction: column;
+    background-color:#e7e0cc ;
+    width: 250px;
+}
+main{
+    margin: 2em;
+}
+#logo{
+    width: 25%
+    }
+    #ape{
+        margin: 0;
+    }
+.card2{
+    display: flex;
+    background-color: #fff;
+    border-radius: 60px;
+    overflow: hidden;
+    width: 180px;
+    height: 80px;
+    background-color: #FFDF7F;
+    align-items: flex-start;
+    justify-content: center;
+    margin-inline: 1.2em;
+    margin-top: 2em;
+}
+.card2>p{
+margin: auto;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.card {
+   
+    border-radius: 50px;
+    overflow: hidden;
+    display: flex;
+    width: 250px;
+    height: 300px;
+    flex-direction: column;
+    background-color: #E7E0CC;
+    
+    }
+
+h1{
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 50px;
+  margin: 20px;
+  color:#752305
+}
+h2{
+    font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: xx-large;
+  color:#752305;
+  margin-bottom: 1em;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+    color:#752305
+}
+h4{
+    font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color:#752305;
+}
+.news1{
+    background-color:#e7e0cc ;
+    border-radius: 10px;
+    width: 100%;
+}
+#miel{
+    width: 80%;
+}
+.price{
+    border-radius: 50px;
+    width: 120px;
+    height: 25px; 
+    background-color: #FFDF7F
+}
+.honey{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1em;
+}
+#prezzo{
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #FFDF7F;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #752305;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 10em;
+    height: 2em;
+}
